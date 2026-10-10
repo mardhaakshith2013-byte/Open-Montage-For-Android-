@@ -1,35 +1,39 @@
-# 🛠️ Dr. Akshith's Automated Cloud Labs: OpenMontage Termux Deployment
 
-Welcome to the automated deployment blueprint for **OpenMontage** optimized specifically for resource-constrained Android environments. This framework allows you to bypass heavy local compilation constraints by shifting heavy media processing pipelines to external cloud infrastructures.
+# 🛠️ Dr. Akshith's Automated Cloud Labs: OpenMontage Termux Guide
 
----
-
-## 📱 Target Hardware Profile
-* **Device:** ANY low end or mid range device 
-* **System Memory:** 4GB Physical RAM + 4GB RAM Plus (Virtual Swap Memory Enabled)
-* **Storage Matrix:** 128GB ROM
+Welcome to the streamlined installation schema for **OpenMontage** optimized natively for Android devices. This guide maps all software requirements and executes deployment routines without system routing dependencies.
 
 ---
 
-## 🏗️ Android Environment Tool
-To safely run this setup on your device without rooting, the deployment runs exclusively inside a clean, native terminal interface:
+## 📱 Target Hardware Target Config
+* **Device Platform:** Samsung Galaxy A07 5G
+* **System Layout:** 4GB Physical RAM + 4GB RAM Plus (Virtual Swap Switched On)
+* **Storage Frame:** 128GB ROM
 
-* **Termux (F-Droid Build)**: Handles the isolated Linux terminal environment, automated dependency resolution, and sandboxed application runtime. All environment configurations are handled internally via standard command-line tools.
-
----
-
-## ⚡ Core Binary System Dependencies
-The execution pipeline automatically updates and verifies the following standard system packages inside your Termux distribution:
-* **`git`**: Handles source version control and pulls repository matrices.
-* **`python` (v3.14+)**: Manages virtual environment routing and local orchestration scripts.
-* **`nodejs` (v26+)**: Coordinates front-end asset compilation and backend API tasks.
-* **`ffmpeg` (v8+)**: Decodes, filters, and renders audio/video assets.
-* **`make`**: Parses automation targets from the project's native build infrastructure.
+* Works on any low end and mid Range Device
 
 ---
 
-## 🚀 Instant 1-Click Installation
-To download your custom configuration script from your GitHub repository and launch the installation immediately, open your **Termux** app, paste the optimized `curl` chain below, and press **Enter**:
+## 🏗️ Core Binary Environment Layout
+This distribution setup uses a pure, native terminal footprint inside your system container:
+
+* **Termux Environment**: Runs an isolated Linux subsystem framework directly inside Android to handle code compilation and script sequencing.
+
+---
+
+## ⚡ Integrated Binary Packages
+The orchestration setup validates, matches, and upgrades these baseline utilities before code building commences:
+* **`git`**: Handles network-level repository streaming and version checkups.
+* **`python` (v3.14+)**: Manages background agent modules and module compilation paths.
+* **`nodejs` (v26+)**: Runs the front-end asset assembly layouts.
+* **`ffmpeg` (v8+)**: Deep media parsing engine handling visual slices and audio tracking.
+* **`make`**: System automation utility.
+
+---
+
+## 🚀 1-Click Fast Terminal Execution
+
+To automatically spin up the deployment toolchain on your mobile device, open your **Termux app**, paste this precise instruction pipeline, and strike **Enter**:
 
 ```bash
 curl -sSL "https://githubusercontent.com" -o install.sh && chmod +x install.sh && ./install.sh
@@ -37,17 +41,16 @@ curl -sSL "https://githubusercontent.com" -o install.sh && chmod +x install.sh &
 
 ---
 
-## 🛠️ Post-Installation Tuning (For 4GB RAM Devices)
-To ensure Android does not kill your background tasks during media pipelines, apply these system tweaks on your Samsung device:
+## 🛠️ Post-Setup Device Calibration
+To prevent your mobile system scheduler from pausing the deployment tool during heavy tasks:
 
-1. **Battery Optimization**: Long-press the **Termux app icon** -> Tap **App Info (i)** -> Go to **Battery** -> Change the restriction profile to **Unrestricted**.
-2. **Virtual Memory Validation**: Navigate to **Settings** -> **Battery and Device Care** -> **Memory** -> Ensure **RAM Plus** is actively set to **+4GB** or higher.
-3. **Command Line Configuration**: Once the setup finishes, use the built-in terminal text editor to set up your keys:
+1. **Set Performance Boundaries**: Long-press your **Termux app icon** -> Select **App Info (i)** -> Enter **Battery** options -> Check **Unrestricted**.
+2. **Environment Tuning**: When the terminal deployment completes, jump right into your project folder and set your credentials using the terminal editor:
    ```bash
    cd OpenMontage
    nano .env
    ```
-   Insert your remote cloud API keys (e.g., OpenAI, Anthropic, or OpenRouter) to prevent your mobile processor from hitting memory limits under local AI workloads. Press `Ctrl + O` then `Enter` to save, and `Ctrl + X` to exit.
+   Add your remote API keys to shift the generative heavy-lifting off your phone and directly onto cloud systems. Save the configuration using `Ctrl + O` -> `Enter`, and exit with `Ctrl + X`.
 
 ---
 Created and Maintained by **Dr. Akshith's Automated Cloud Lab Series** © 2026. All Rights Reserved.
