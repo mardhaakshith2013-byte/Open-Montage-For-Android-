@@ -5,7 +5,7 @@ Welcome to the automated deployment blueprint for **OpenMontage** optimized spec
 ---
 
 ## 📱 Target Hardware Profile
-* **Device:** ANY low end or mid range
+* **Device:** ANY low end or mid range device 
 * **System Memory:** 4GB Physical RAM + 4GB RAM Plus (Virtual Swap Memory Enabled)
 * **Storage Matrix:** 128GB ROM
 
@@ -14,7 +14,7 @@ Welcome to the automated deployment blueprint for **OpenMontage** optimized spec
 ## 🏗️ Android Environment Tool
 To safely run this setup on your device without rooting, the deployment runs exclusively inside a clean, native terminal interface:
 
-* **Termux (F-Droid Build)**: Handes the isolated Linux terminal environment, automated dependency resolution, and sandboxed application runtime. All environment configurations are handled internally via standard command-line tools.
+* **Termux (F-Droid Build)**: Handles the isolated Linux terminal environment, automated dependency resolution, and sandboxed application runtime. All environment configurations are handled internally via standard command-line tools.
 
 ---
 
@@ -32,10 +32,8 @@ The execution pipeline automatically updates and verifies the following standard
 To download your custom configuration script from your GitHub repository and launch the installation immediately, open your **Termux** app, paste the optimized `curl` chain below, and press **Enter**:
 
 ```bash
-curl -sSL https://githubusercontent.com -o install.sh && chmod +x install.sh && ./install.sh
+curl -sSL "https://githubusercontent.com" -o install.sh && chmod +x install.sh && ./install.sh
 ```
-
-> ⚠️ **Configuration Reminder:** Swap out `YOUR_GITHUB_USERNAME` and `YOUR_REPO_NAME` in the link above with your actual GitHub account credentials and repository name.
 
 ---
 
